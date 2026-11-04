@@ -13,6 +13,7 @@ This analysis was done through first identifying differences in stability based 
 All data used in this paper is publicly accessible. They can be found in the [data sources folder]( ) of this repository. For those in italics, a link to the source will be provided instead. 
 - **Military Involvement/Occupation Data**: obtained from two data sources, Andreas Wimmer's ["From Empire to Nation-State" dataset](https://www.awimmer.com/data) and Tuft's University's [Military Intervention Project (MIP)] (https://sites.tufts.edu/css/?page_id=1582) through the Fletcher Center for Strategic Studies. These data sources were used to identify countries that were exposed to U.S. military control for periods longer than a year within the Latin American region.
 - ***State Stability Data***: obtained from the [Varieties of Democacy v15 complete dataset](https://v-dem.net/data/the-v-dem-dataset/country-year-v-dem-fullothers-v15/).
+
 The [final data set], titled *impevents.csv*, is stored in separately from the data sources. 
 ## 💻 R Script Navigation
 All scripts for data cleaning, analysis, and visualization can be found in the [scripts folder] ( ) of this repository. There are three total scripts for this project: 

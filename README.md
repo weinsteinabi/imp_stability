@@ -21,7 +21,13 @@ All scripts for data cleaning, analysis, and visualization can be found in the [
 - *modelpractice.R*: creates the stability index for use in modeling, merges index to event data, and runs the models themselves.
 - *description.R*: produces all visuals and tables for the project. 
 ## 🥼 Methodology 
-
+Because our raw data is not obtained from datasets focused on either the United States or acts of imperialism, the first step is pare data down to be acceptable for our research goals. Data points used for our research purposes must meet the following criteria if documenting imperial activities in particular: 
+- the imperial power is identified as the **United States**
+- the occupied territory is in the **Latin American region**
+- event takes place between **1898 and 1945** (Age of "New Imperialism")
+- justifications for military action, if taken, must align with motivations for imperialism of that era (this only applies to data from the MIP data source)
+- military engagement/intervention must last at least 1 year
+This results in ten unique episodes identified across seven countries. We then expand each of these episodes across the years they were active. 
 ## ▶️ Project Outcomes and Future Steps
 
 ## 📝 Citations

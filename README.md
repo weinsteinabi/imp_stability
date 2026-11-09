@@ -37,7 +37,7 @@ Once this is complete, we incorporate data from the rest of the countries in the
 - _v2x_civlib_: civil liberties
 - *v2x_rule*: rule of law
 - _v2x_corr_: corruption
-We combine these to create a standardized state stability metric that combines various indicators of national stability into one continuous measure, ranging from 0 (unstable) to 1 (stable), using the formula $ Stability = \frac{\frac{𝑓𝑖𝑠𝑐𝑐𝑎𝑝}{4} + \frac{𝑙𝑖𝑓𝑒_𝑒𝑥𝑝}{100} + \frac{𝑔𝑑𝑑𝑝𝑐}{100} + (1 − 𝑐𝑜𝑟𝑟) + 𝑟𝑢𝑙𝑒 + 𝑐𝑖𝑣𝑙𝑖𝑏}{6} $
+We combine these to create a standardized state stability metric that combines various indicators of national stability into one continuous measure, ranging from 0 (unstable) to 1 (stable), using the formula $Stability = \frac{\frac{𝑓𝑖𝑠𝑐𝑐𝑎𝑝}{4} + \frac{𝑙𝑖𝑓𝑒_𝑒𝑥𝑝}{100} + \frac{𝑔𝑑𝑑𝑝𝑐}{100} + (1 − 𝑐𝑜𝑟𝑟) + 𝑟𝑢𝑙𝑒 + 𝑐𝑖𝑣𝑙𝑖𝑏}{6}$
 ## ▶️ Project Outcomes and Future Steps
 
 ## 📝 Citations

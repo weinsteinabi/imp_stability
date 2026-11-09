@@ -39,7 +39,8 @@ Once this is complete, we incorporate data from the rest of the countries in the
 - *v2x_rule*: rule of law
 - _v2x_corr_: corruption
   
-We combine these to create a standardized state stability metric that combines various indicators of national stability into one continuous measure, ranging from 0 (unstable) to 1 (stable), using the following formula: $$Stability = \frac{\frac{𝑓𝑖𝑠𝑐𝑐𝑎𝑝}{4} + \frac{𝑙𝑖𝑓𝑒_𝑒𝑥𝑝}{100} + \frac{𝑔𝑑𝑑𝑝𝑐}{100} + (1 − 𝑐𝑜𝑟𝑟) + 𝑟𝑢𝑙𝑒 + 𝑐𝑖𝑣𝑙𝑖𝑏}{6}$$
+We combine these to create a standardized state stability metric that combines various indicators of national stability into one continuous measure, ranging from 0 (unstable) to 1 (stable), using the following formula: 
+$$Stability = \frac{\frac{𝑓𝑖𝑠𝑐𝑐𝑎𝑝}{4} + \frac{𝑙𝑖𝑓𝑒_𝑒𝑥𝑝}{100} + \frac{𝑔𝑑𝑑𝑝𝑐}{100} + (1 − 𝑐𝑜𝑟𝑟) + 𝑟𝑢𝑙𝑒 + 𝑐𝑖𝑣𝑙𝑖𝑏}{6}$$
 
 Using this metric, we can then conduct tests to 1) identify if there is a substantial difference in state stability between nations that experienced long-term US military intervention/occupation and those that did not and 2) to identify the extent to which this intervention impacts state stability and how. The first task is completed using Welch's two-sample *t*, focusing on the differences between average state stability metric in the two identified groups. This will help us determine whether or not there is a significant difference in state stability, but it does not identify direction. To do identify this, we need to run a pooled OLS regression with factors. This will identify the strength and direction of influence US imperial behaviors during this time period have on a country independently from the baseline stability metrics of that particular country and year. 
 ## ▶️ Project Outcomes and Future Steps

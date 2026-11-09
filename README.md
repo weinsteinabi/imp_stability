@@ -29,7 +29,7 @@ Because our raw data is not obtained from datasets focused on either the United 
 - justifications for military action, if taken, must align with motivations for imperialism of that era (this only applies to data from the MIP data source)
 - military engagement/intervention must last at least 1 year
   
-This results in ten unique episodes identified across seven countries when using data from the Military Intervention/Occupation datasets described above. We then expand each of these episodes across the years they were active. From here, we create a binary flag indicating whether or not a state has been occupied by the United State during the specified time period. All observations in this first set receive a value of **1**, indicating that there was an occupation episode.
+This results in ten unique episodes identified across seven countries when using data from the Military Intervention/Occupation datasets described above. We then expand each of these episodes across the years they were active. From here, we create a binary flag indicating whether or not a state has been occupied by the United State during the specified time period. All observations in this first set receive a value of **1** in the *imperialized* variable, indicating that there was an occupation episode.
 ### *Measures and Methods*
 Once this is complete, we incorporate data from the rest of the countries in the region and expand the dataset to range from the beginning of our specified time period to 2010. This allows us to track data we will be using for our stability metrics from the beginning of the "New Imperialism" period until recently across all states in the Latin American region. These stability metrics, obtained from V-DEMv15, are as follows: 
 - *v2stfisccap*: fiscal capacity of the state to support services
@@ -38,9 +38,9 @@ Once this is complete, we incorporate data from the rest of the countries in the
 - _v2x_civlib_: civil liberties
 - *v2x_rule*: rule of law
 - _v2x_corr_: corruption
-We combine these to create a standardized state stability metric that combines various indicators of national stability into one continuous measure, ranging from 0 (unstable) to 1 (stable), using the formula $Stability = \frac{\frac{𝑓𝑖𝑠𝑐𝑐𝑎𝑝}{4} + \frac{𝑙𝑖𝑓𝑒_𝑒𝑥𝑝}{100} + \frac{𝑔𝑑𝑑𝑝𝑐}{100} + (1 − 𝑐𝑜𝑟𝑟) + 𝑟𝑢𝑙𝑒 + 𝑐𝑖𝑣𝑙𝑖𝑏}{6}$
+We combine these to create a standardized state stability metric that combines various indicators of national stability into one continuous measure, ranging from 0 (unstable) to 1 (stable), using the following formula: $Stability = \frac{\frac{𝑓𝑖𝑠𝑐𝑐𝑎𝑝}{4} + \frac{𝑙𝑖𝑓𝑒_𝑒𝑥𝑝}{100} + \frac{𝑔𝑑𝑑𝑝𝑐}{100} + (1 − 𝑐𝑜𝑟𝑟) + 𝑟𝑢𝑙𝑒 + 𝑐𝑖𝑣𝑙𝑖𝑏}{6}$
 
-...
+Using this metric, we can then conduct tests to 1) identify if there is a substantial difference in state stability between nations that experienced long-term US military intervention/occupation and those that did not and 2) to identify the extent to which this intervention impacts state stability and how. The first task is completed using Welch's two-sample *t*, focusing on the differences between average state stability metric in the two identified groups. This will help us determine whether or not there is a significant difference in state stability, but it does not identify direction. To do identify this, we need to run a pooled OLS regression with factors. This will identify the strength and direction of influence US imperial behaviors during this time period have on a country independently from the baseline stability metrics of that particular country and year. 
 ## ▶️ Project Outcomes and Future Steps
-
+...
 ## 📝 Citations

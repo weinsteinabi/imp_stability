@@ -1,4 +1,3 @@
-⚠️ UNDER CONSTRUCTION
 # Imperialism and State Stability in Latin America
 
 This repository contains an overview of the term paper for the Social Data Analytics program's research design course, in addition to data sources, scripts, and visuals used. There is overlap between this project and the project linked [here](https://github.com/weinsteinabi/war_decol/tree/main) in regard to data use. I can be contacted [here](https://github.com/weinsteinabi#contact-information) to discuss the project further. 
@@ -16,7 +15,7 @@ All data used in this paper is publicly accessible. They can be found in the [da
 
 The final data set, titled *impevents.csv*, is stored in separately from the data sources. 
 ## 💻 R Script Navigation
-All scripts for data cleaning, analysis, and visualization can be found in the [scripts folder] ( ) of this repository. There are three total scripts for this project: 
+All scripts for data cleaning, analysis, and visualization can be found in the [scripts folder](https://github.com/weinsteinabi/imp_stability/tree/main/scripts) of this repository. There are three total scripts for this project: 
 - *dataprep.R*: handles all data processing aimed at identifying occupation events within the correct region and time frame of analysis.
 - *modelpractice.R*: creates the stability index for use in modeling, merges index to event data, and runs the models themselves.
 - *description.R*: produces all visuals and tables for the project. 
